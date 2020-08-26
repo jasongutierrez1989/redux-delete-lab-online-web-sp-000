@@ -6,7 +6,7 @@ export default function manageBand(state = {
 
       return { ...state, bands: [...state.bands, {
         id: Math.random() * 10000000000,
-        name: action.name 
+        name: action.name
       }] }
 
     case "DELETE_BAND":
