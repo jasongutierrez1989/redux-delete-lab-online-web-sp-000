@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Band extends Component {
+class Bands extends Component {
 
   render() {
     return(
@@ -12,4 +12,4 @@ class Band extends Component {
   }
 };
 
-export default Band;
+export default Bands;
